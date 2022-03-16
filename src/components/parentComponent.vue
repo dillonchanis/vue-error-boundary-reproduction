@@ -7,8 +7,8 @@
 <script>
 import { markRaw } from "vue";
 import VErrorBoundary from "vue-error-boundary";
-import ImUnstable from "@/components/ImUnstable.vue";
-import ContactError from "@/components/ContactError";
+import ImUnstable from "./ImUnstable.vue";
+import ContactError from "./ContactError.vue";
 export default {
   components: {
     ImUnstable,
@@ -27,3 +27,6 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+</style>
